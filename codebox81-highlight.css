@@ -1,0 +1,62 @@
+/* 공통 */
+.token.comment{color:#6A9955}
+.token.punct{color:#D4D4D4}
+.token.number{color:#B5CEA8}
+.token.boolean,.token.null{color:#569CD6}
+.token.operator{color:#D4D4D4}
+.token.regex{color:#D16969}
+.token.escape{color:#FFD68F}
+
+/* HTML */
+.token.html-doctype{color:#808080}
+.token.html-tag{color:#569CD6}
+.token.html-name{color:#569CD6}
+.token.html-attr{color:#9CDCFE}
+.token.html-attr-eq{color:#D4D4D4}
+.token.html-attr-val{color:#CE9178}
+.token.html-cdata{color:#808080}
+
+/* CSS */
+.token.css-at{color:#C586C0}
+.token.css-selector{color:#D7BA7D}
+.token.css-property{color:#9CDCFE}
+.token.css-value{color:#CE9178}
+.token.css-unit{color:#B5CEA8}
+.token.css-hashcolor{color:#B5CEA8}
+.token.css-important{color:#C586C0;font-weight:600}
+
+/* JS */
+.token.js-keyword{color:#C586C0}
+.token.js-class{color:#4EC9B0}
+.token.js-function{color:#DCDCAA}
+.token.js-identifier{color:#D4D4D4}
+.token.js-string,.token.js-template{color:#CE9178}
+.token.js-number{color:#B5CEA8}
+.token.js-null,.token.js-boolean{color:#569CD6}
+
+/* 괄호 */
+.token.brace,.token.paren,.token.bracket{color:#D4D4D4}
+
+/* -------------------------------------------------------------------------- */
+/* C++ 전용 토큰 (VS2022 다크 테마)
+   MicroHighlighter용 C++ 하이라이터가 토큰 클래스 앞에 `cpp-` 접두사를 붙여
+   생성하므로, 일반 토큰과 충돌하지 않도록 별도로 정의한다. 모든 색상은
+   Visual Studio 2022 다크 테마를 참고하여 설정하였다.                  */
+.token.cpp-comment       { color: #608B4E; }
+.token.cpp-string        { color: #D69D85; }
+.token.cpp-number        { color: #B5CEA8; }
+.token.cpp-preprocessor  { color: #9B9B9B; }
+.token.cpp-keyword       { color: #569CD6; }
+.token.cpp-keyword-control-flow { color: #D7A0DF; }
+.token.cpp-keyword-msvc  { color: #569CD6; }
+.token.cpp-keyword-windows { color: #4EC9B0; }
+.token.cpp-system-type   { color: #4EC9B0; }
+.token.cpp-function      { color: #DCDCAA; }
+.token.cpp-identifier    { color: #D4D4D4; }
+.token.cpp-operator      { color: #D4D4D4; }
+.token.cpp-punct         { color: #9B9B9B; }
+.token.cpp-brace,
+.token.cpp-paren,
+.token.cpp-bracket       { color: #D4D4D4; }
+.token.cpp-boolean,
+.token.cpp-null          { color: #569CD6; }
